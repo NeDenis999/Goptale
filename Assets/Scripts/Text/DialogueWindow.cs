@@ -4,6 +4,7 @@ using Dialogues;
 using Player;
 using TMPro;
 using UnityEngine;
+using Zenject;
 
 namespace Text
 {
@@ -13,6 +14,9 @@ namespace Text
 
         [SerializeField] 
         private TextMeshProUGUI _textMeshPro;
+
+        [SerializeField] 
+        private AudioSource _musicPlayer;
         
         private Dialogue _dialogue;
         private int _numberNodes = 0;
@@ -20,11 +24,10 @@ namespace Text
         private PlayerPause _playerPause;
 
         public event Action EventClosing;
-
+        
         public void Construct(PlayerPause playerPause)
         {
             _playerPause = playerPause;
-            Hide();
         }
         
         public void Show(Dialogue dialogue)
@@ -55,12 +58,16 @@ namespace Text
             {
                 _lengthText = 0;
                 _textMeshPro.text = CurrentText();
+                _musicPlayer.clip = NodeSoundPrint();
 
                 while (_lengthText <= TextLength())
                 {
                     _textMeshPro.maxVisibleCharacters = _lengthText;
                     _lengthText++;
-
+                    
+                    if (_musicPlayer.clip)
+                        _musicPlayer.Play();
+                    
                     yield return new WaitForSeconds(_dialogue.Nodes[_numberNodes].SpeedRecruiting);
                 }
 
@@ -86,5 +93,8 @@ namespace Text
 
         private bool NodeEnd() => 
             (_numberNodes >= _dialogue.Nodes.Count);
+
+        private AudioClip NodeSoundPrint() => 
+            _dialogue.Nodes[_numberNodes].soundPrint;
     }
 }

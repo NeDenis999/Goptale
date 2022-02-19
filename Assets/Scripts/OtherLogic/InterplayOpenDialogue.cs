@@ -1,6 +1,7 @@
 using Dialogues;
 using Text;
 using UnityEngine;
+using Zenject;
 
 namespace OtherLogic
 {
@@ -11,6 +12,7 @@ namespace OtherLogic
         
         private DialogueWindow _dialogueWindow;
 
+        [Inject]
         public void Construct(DialogueWindow dialogueWindow)
         {
             _dialogueWindow = dialogueWindow;

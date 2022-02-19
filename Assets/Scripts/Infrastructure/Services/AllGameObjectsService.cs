@@ -45,11 +45,11 @@ namespace Infrastructure.Services
                     Object.DontDestroyOnLoad(_playerPause);
                 }
 
-                if (currentObject.GetComponent<TransitionLevelWhiteScreenTrigger>())
-                    currentObject.GetComponent<TransitionLevelWhiteScreenTrigger>().Construct(_transitionLevelService);
+               // if (currentObject.GetComponent<TransitionLevelWhiteScreenTrigger>())
+                    //currentObject.GetComponent<TransitionLevelWhiteScreenTrigger>().Construct(_transitionLevelService);
                 
-                if (currentObject.GetComponent<TransitionLevelTrigger>())
-                    currentObject.GetComponent<TransitionLevelTrigger>().Construct(_transitionLevelService, TransitionScreen());
+                //if (currentObject.GetComponent<TransitionLevelTrigger>())
+                    //currentObject.GetComponent<TransitionLevelTrigger>().Construct(_transitionLevelService, TransitionScreen());
             }
         }
 

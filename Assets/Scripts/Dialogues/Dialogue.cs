@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Dialogues
 {
-    [CreateAssetMenu(fileName = "Dialogue", menuName = "Dialogue/Dialogue", order = 52)]
+    [CreateAssetMenu(fileName = "Level0Dialogue", menuName = "Dialogue/Dialogue", order = 52)]
     public class Dialogue : ScriptableObject
     {
         [SerializeField]

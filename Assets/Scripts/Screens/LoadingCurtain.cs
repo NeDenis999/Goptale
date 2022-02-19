@@ -1,39 +1,40 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class LoadingCurtain : MonoBehaviour
+namespace Screens
 {
-    [SerializeField]
-    private CanvasGroup _curtain;
-
-    private void Awake()
+    public class LoadingCurtain : MonoBehaviour
     {
-        DontDestroyOnLoad(this);
-    }
+        [SerializeField]
+        private CanvasGroup _curtain;
 
-    public void Show()
-    {
-        gameObject.SetActive(true);
-        _curtain.alpha = 1f;
-    }
-
-    public void Hide()
-    {
-        StartCoroutine(FadeIn());
-    }
-
-    private IEnumerator FadeIn()
-    {
-        yield return new WaitForSeconds(0.1f);
-
-        while (_curtain.alpha > 0)
+        private void Awake()
         {
-            _curtain.alpha -= 0.03f;
-            yield return new WaitForSeconds(0.03f);
+            DontDestroyOnLoad(this);
         }
 
-        gameObject.SetActive(false);
+        public void Show()
+        {
+            gameObject.SetActive(true);
+            _curtain.alpha = 1f;
+        }
+
+        public void Hide()
+        {
+            StartCoroutine(FadeIn());
+        }
+
+        private IEnumerator FadeIn()
+        {
+            yield return new WaitForSeconds(0.1f);
+
+            while (_curtain.alpha > 0)
+            {
+                _curtain.alpha -= 0.03f;
+                yield return new WaitForSeconds(0.03f);
+            }
+
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -10,6 +10,22 @@ namespace Code.Installers
         [SerializeField] 
         private CameraMovement _cameraMovement;
         
+        [SerializeField] 
+        private float _speed = 1f;
+
+        [SerializeField] 
+        private float _maxDown = -100f;
+        
+        [SerializeField] 
+        private float _maxLeft = -100f;
+        
+        [SerializeField] 
+        private float _maxRight = 100f;
+        
+        [SerializeField] 
+        private float _maxUp = 100f;
+
+        
         [Inject]
         private PlayerPause _player;
 
@@ -21,8 +37,12 @@ namespace Code.Installers
                 _cameraMovement, spawnPoint.position, Quaternion.identity, null);
             
             cameraInstance.Construct(_player.transform);
+            cameraInstance.SetBoundaries(_maxDown, _maxLeft, _maxRight, _maxUp, _speed);
 
-            Container.Bind<CameraMovement>().FromInstance(cameraInstance).AsCached().NonLazy();
+            Container
+                .Bind<CameraMovement>()
+                .FromInstance(cameraInstance)
+                .AsSingle();
         }
     }
 }

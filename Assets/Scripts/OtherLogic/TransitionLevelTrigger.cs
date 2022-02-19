@@ -3,6 +3,7 @@ using Infrastructure.States;
 using Player;
 using Screens;
 using UnityEngine;
+using Zenject;
 
 namespace OtherLogic
 {
@@ -10,14 +11,18 @@ namespace OtherLogic
     {
         [SerializeField] 
         private string _level;
+        
+        [SerializeField] 
+        private int _numberSpawnPoint;
 
-        private ITransitionLevelService _levelService;
-        private TransitionScreen _transitionScreen;
+        private ITransitionLevelService _transitionLevelService;
+        private LoadingCurtain _loadingCurtain;
 
-        public void Construct(ITransitionLevelService levelService, TransitionScreen transitionScreen)
+        [Inject]
+        public void Construct(ITransitionLevelService transitionLevelService, LoadingCurtain loadingCurtain)
         {
-            _levelService = levelService;
-            _transitionScreen = transitionScreen;
+            _transitionLevelService = transitionLevelService;
+            _loadingCurtain = loadingCurtain;
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -26,10 +31,14 @@ namespace OtherLogic
                 TransitLevel();
         }
 
-        private void TransitLevel() => 
-            _levelService.TransitLevel(_level, EndTransit);
+        private void TransitLevel()
+        {
+            _loadingCurtain.Show();
+            _transitionLevelService.SetNumberPoint(_numberSpawnPoint);
+            _transitionLevelService.TransitLevel(_level, EndTransit);
+        }
 
-        private void EndTransit() => 
-            _transitionScreen.Open();
+        private void EndTransit() =>
+            _loadingCurtain.Hide();
     }
 }

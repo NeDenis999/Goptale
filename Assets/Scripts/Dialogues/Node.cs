@@ -15,5 +15,6 @@ namespace Dialogues
         public GameObject Head;
         public int NumberEmotion;
         public float SpeedRecruiting = 0.05f;
+        public AudioClip soundPrint;
     }
 }
