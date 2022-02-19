@@ -1,8 +1,7 @@
-﻿using Buttons;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
-namespace Code
+namespace Code.BattleStates
 {
     public class PreparationBattleState : BattleState
     {
@@ -15,6 +14,12 @@ namespace Code
         [SerializeField] 
         private Transform _targetPosition;
 
+        [SerializeField] 
+        private BattleStateMachine _stateMachine;
+        
+        [SerializeField]
+        private PlayerMoveBattleState _playerMoveBattleState;
+        
         private Determination _determination;
         private float _alpha;
 
@@ -46,13 +51,13 @@ namespace Code
             
             if (determinationPosition != buttonPosition)
                 _determination.transform.position = Vector3.MoveTowards(determinationPosition, buttonPosition, _speed * Time.deltaTime);
-            else             if (_alpha < 1)
+            else if (_alpha < 1)
             {
                 _alpha += Time.deltaTime;
                 _blackBackground.color = new Color(0, 0, 0, Mathf.Lerp(1, 0, Mathf.Lerp(0, 1, _alpha)));
             }
             else
-                Exit();
+                _stateMachine.ChangeState(_playerMoveBattleState);
         }
     }
 }

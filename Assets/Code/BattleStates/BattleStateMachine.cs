@@ -1,8 +1,7 @@
 using System;
-using Infrastructure.States;
 using UnityEngine;
 
-namespace Code
+namespace Code.BattleStates
 {
     public class BattleStateMachine : MonoBehaviour
     {
@@ -16,7 +15,7 @@ namespace Code
 
         private void Update()
         {
-            _currentState?.Tick();
+            _currentState.Tick();
         }
 
         public void Initialize(BattleState startingState)

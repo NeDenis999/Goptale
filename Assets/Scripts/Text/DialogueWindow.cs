@@ -11,6 +11,8 @@ namespace Text
     public class DialogueWindow : MonoBehaviour
     {
         private const string NotTextMessange = "Добавь сообщение";
+        private const string Submit = "Submit";
+        private const string Cancel = "Cancel";
 
         [SerializeField] 
         private TextMeshProUGUI _textMeshPro;
@@ -45,7 +47,7 @@ namespace Text
 
         private void Update()
         {
-            if (Input.GetButtonDown("Cancel"))
+            if (Input.GetButtonDown(Cancel))
                 ShowAllText();
         }
 
@@ -72,7 +74,7 @@ namespace Text
                 }
 
                 yield return new WaitUntil(() => 
-                    Input.GetButtonDown("Submit"));
+                    Input.GetButtonDown(Submit));
             }
             
             _playerPause.OffPause();
