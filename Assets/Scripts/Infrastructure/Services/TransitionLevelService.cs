@@ -7,7 +7,8 @@ namespace Infrastructure.Services
 {
     public class TransitionLevelService : ITransitionLevelService
     {
-        private ICoroutineRunner _coroutineRunner;
+        private readonly ICoroutineRunner _coroutineRunner;
+        
         private int _numberSpawnPoint = 0;
         private bool _isFirstTransition = true;
         

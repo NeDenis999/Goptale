@@ -21,9 +21,9 @@ namespace Screens
             _waitForSeconds = new WaitForSeconds(WaitPaintingAlpha);
         }
 
-        public override void Open()
+        public override void Show()
         {
-            base.Open();
+            base.Show();
             StartCoroutine(OnOpen());
         }
 

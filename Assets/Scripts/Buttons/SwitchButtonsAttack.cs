@@ -7,6 +7,8 @@ namespace Buttons
     {
         private const string Vertical = "Vertical";
         private const string Cancel = "Cancel";
+        private const string Submit = "Submit";
+        
 
         [SerializeField] 
         private DialogueBattleWindow _dialogueWindow;
@@ -21,6 +23,9 @@ namespace Buttons
 
             if (Input.GetButtonDown(Cancel))
                 Back();
+
+            if (Input.GetButtonDown(Submit))
+                PressButton();
         }
 
         public override void Active()

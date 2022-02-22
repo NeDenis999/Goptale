@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using Screens;
+using UnityEngine;
 using Zenject;
 
 namespace Buttons
@@ -7,6 +9,9 @@ namespace Buttons
     {
         [SerializeField]
         private Transform _target;
+
+        [SerializeField] 
+        private HitWindow _hitWindow;
         
         private Determination _determination;
         
@@ -15,10 +20,15 @@ namespace Buttons
         {
             _determination = determination;
         }
-        
+
         public override void Selected()
         {
             _determination.transform.position = _target.position;
+        }
+
+        public override void Press()
+        {
+            _hitWindow.Show();
         }
     }
 }

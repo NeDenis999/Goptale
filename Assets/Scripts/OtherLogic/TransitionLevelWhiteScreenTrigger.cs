@@ -47,7 +47,7 @@ namespace OtherLogic
             playerPause.OnPause();
                     
             _whileScreen.OpenEnded += OneTransitLevel;
-            _whileScreen.Open();
+            _whileScreen.Show();
         }
 
         private void OneTransitLevel()

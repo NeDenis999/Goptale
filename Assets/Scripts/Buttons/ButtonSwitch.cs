@@ -51,7 +51,7 @@ namespace Buttons
             }
         }
 
-        private void PressButton()
+        protected void PressButton()
         {
             _buttons[_currentNumberButton].Press();
             Deactivate();

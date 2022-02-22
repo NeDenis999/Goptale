@@ -7,9 +7,9 @@ namespace Screens
         [SerializeField] private ButtonManager _lettersBig;
         [SerializeField] private GameObject _name;
         
-        public override void Open()
+        public override void Show()
         {
-            base.Open();
+            base.Show();
             _lettersBig.SetIsActive(true);
             _name.SetActive(true);
         }

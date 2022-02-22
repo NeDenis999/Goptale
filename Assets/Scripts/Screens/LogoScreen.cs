@@ -17,7 +17,7 @@ namespace Screens
         private bool _isActive;
         
         private void Awake() => 
-            _textManagerScreenSaver.EndScreenSaver += Open;
+            _textManagerScreenSaver.EndScreenSaver += Show;
 
         private void Start()
         {
@@ -28,7 +28,7 @@ namespace Screens
         {
             if (Input.GetButtonDown(Submit) && _canvasGroup.alpha == 1 && _isActive)
             {
-                _controlScreen.Open();
+                _controlScreen.Show();
                 Close();
             }
         }

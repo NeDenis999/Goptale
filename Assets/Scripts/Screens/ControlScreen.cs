@@ -12,7 +12,7 @@ namespace Screens
         {
             if (Input.GetButtonDown(Submit) && _canvasGroup.alpha == 1)
             {
-                _choiceNameScreen.Open();
+                _choiceNameScreen.Show();
                 Close();
             }
         }

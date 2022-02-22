@@ -7,7 +7,7 @@ namespace Screens
     {
         [SerializeField] protected CanvasGroup _canvasGroup;
         
-        public virtual void Open()
+        public virtual void Show()
         {
             _canvasGroup.alpha = 1;
             _canvasGroup.interactable = true;
