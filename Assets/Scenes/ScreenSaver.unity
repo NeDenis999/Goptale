@@ -580,22 +580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &68771059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,7 +593,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &75542476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,22 +1283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &169005619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,7 +1296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &180121521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,7 +1343,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180121521}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -1415,7 +1381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &183806987
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1504,7 +1470,7 @@ MonoBehaviour:
     - \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u043B\u0441\u044F."
   _speedRecruiting: 0.05
   _countSymbol: 1
-  _textMeshPro: {fileID: 0}
+  _textMeshPro: {fileID: 1873583519}
   _audioClips:
   - {fileID: 8300000, guid: 51576b0493daf374fa35a2a18fbba4d1, type: 3}
   - {fileID: 8300000, guid: 679885b1ae0bcd448bebdfe5a995a7be, type: 3}
@@ -1766,22 +1732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &218734703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1795,7 +1745,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &229031524
 GameObject:
   m_ObjectHideFlags: 0
@@ -2579,22 +2528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &359035875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2608,7 +2541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &363041099
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,22 +3000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &395588052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,7 +3013,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &400634311
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,22 +3161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &400634316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3275,7 +3174,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &412360431
 GameObject:
   m_ObjectHideFlags: 0
@@ -3424,22 +3322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &412360436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3453,7 +3335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &426687870
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,22 +3483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &426687875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3631,7 +3496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &436825022
 GameObject:
   m_ObjectHideFlags: 0
@@ -4048,22 +3912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &485638044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4077,7 +3925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &540103430
 GameObject:
   m_ObjectHideFlags: 0
@@ -4226,22 +4073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &540103435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4255,7 +4086,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &563892667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,22 +4368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &576031494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4567,7 +4381,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &580929862
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,22 +5065,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &711876840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5281,7 +5078,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &713772398
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,22 +5494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &756039290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5727,7 +5507,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &773525183
 GameObject:
   m_ObjectHideFlags: 0
@@ -6010,22 +5789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &779249287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6039,7 +5802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &798578783
 GameObject:
   m_ObjectHideFlags: 0
@@ -7119,22 +6881,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &934504819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7148,7 +6894,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &966763112
 GameObject:
   m_ObjectHideFlags: 0
@@ -7431,22 +7176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1011514956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7460,7 +7189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1026672422
 GameObject:
   m_ObjectHideFlags: 0
@@ -7739,22 +7467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1059250964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7768,7 +7480,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1082467246
 GameObject:
   m_ObjectHideFlags: 0
@@ -8629,7 +8340,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!114 &1216164397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8794,22 +8504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1242140696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8823,7 +8517,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1248887394
 GameObject:
   m_ObjectHideFlags: 0
@@ -9257,22 +8950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1280104367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9286,7 +8963,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1280266922
 GameObject:
   m_ObjectHideFlags: 0
@@ -10417,22 +10093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1496741294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10446,7 +10106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1545972253
 GameObject:
   m_ObjectHideFlags: 0
@@ -10910,22 +10569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1571155301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10939,7 +10582,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1601462889
 GameObject:
   m_ObjectHideFlags: 0
@@ -11222,22 +10864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1610703961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11251,7 +10877,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1663162162
 GameObject:
   m_ObjectHideFlags: 0
@@ -11534,22 +11159,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1768393247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11563,7 +11172,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1802271053
 GameObject:
   m_ObjectHideFlags: 0
@@ -11712,22 +11320,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1802271058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11741,7 +11333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1842186577
 GameObject:
   m_ObjectHideFlags: 0
@@ -11890,22 +11481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1842186582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11919,7 +11494,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1873583517
 GameObject:
   m_ObjectHideFlags: 0
@@ -12202,22 +11776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1899385952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12231,7 +11789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1906932813
 GameObject:
   m_ObjectHideFlags: 0
@@ -12857,22 +12414,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &1973830941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12886,7 +12427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &1998594694
 GameObject:
   m_ObjectHideFlags: 0
@@ -13198,22 +12738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2031615275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13227,7 +12751,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2035613429
 GameObject:
   m_ObjectHideFlags: 0
@@ -13376,22 +12899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2035613434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13405,7 +12912,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2037073395
 GameObject:
   m_ObjectHideFlags: 0
@@ -13688,22 +13194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2082751276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13717,7 +13207,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2104087928
 GameObject:
   m_ObjectHideFlags: 0
@@ -14000,22 +13489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2113147421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14029,7 +13502,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2114162993
 GameObject:
   m_ObjectHideFlags: 0
@@ -14178,22 +13650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2114162998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14207,7 +13663,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2125880484
 GameObject:
   m_ObjectHideFlags: 0
@@ -14356,22 +13811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384bb412a0bd7684a96fe621913bc579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _event:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2127868190}
-        m_TargetAssemblyTypeName: NamePrinting, Assembly-CSharp
-        m_MethodName: Print
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _nextButtonManager: {fileID: 0}
 --- !u!114 &2125880489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14385,7 +13824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distance: 1.5
-  StartPosition: {x: 0, y: 0}
 --- !u!1 &2126510584
 GameObject:
   m_ObjectHideFlags: 0

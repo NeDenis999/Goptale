@@ -27,9 +27,12 @@ public class Shaking : MonoBehaviour
 
     public void Shake()
     {
+        if (!_transform)
+            return;
+        
         _nextPosition = _startPosition + new Vector2(Random.Range(-_distance, _distance), 
             Random.Range(-_distance, _distance)) * transform.localScale;
-
+        
         _currentPosition = _transform.position;
         _currentTime = 0;
     }
